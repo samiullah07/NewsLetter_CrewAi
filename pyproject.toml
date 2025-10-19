@@ -1,0 +1,21 @@
+[project]
+name = "cai-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.10.1",
+    "crewai>=0.203.1",
+    "crewai-tools>=0.76.0",
+    "dotenv>=0.9.9",
+    "huggingface-hub>=0.35.3",
+    "langchain-community>=0.4",
+    "langchain-core>=1.0.0",
+    "langchain-groq>=1.0.0",
+    "langchain-huggingface>=1.0.0",
+    "langchain-openai>=1.0.0",
+    "openai>=1.109.1",
+    "torch>=2.9.0",
+    "transformers>=4.57.1",
+]
